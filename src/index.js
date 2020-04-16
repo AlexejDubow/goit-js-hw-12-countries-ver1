@@ -11,6 +11,7 @@ const refs = {
   queryInput: document.querySelector('.js-input'),
   markupCountryList: document.querySelector('.js-countryList'),
 };
+
 refs.queryInput.addEventListener('input', debounce(serchCountry, 500));
 
 function serchCountry(e) {
