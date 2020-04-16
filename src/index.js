@@ -1,6 +1,6 @@
 import fetchCountries from './fetchCountries';
-import PNotify from 'pnotify/dist/es/PNotify';
-import 'pnotify/dist/PNotifyBrightTheme.css';
+import PNotify from '../node_modules/pnotify/dist/es/PNotify';
+import '../node_modules/pnotify/dist/PNotifyBrightTheme.css';
 import countryListTemplate from './templates/countryList.hbs';
 import countryInfoTemplate from './templates/countryInfo.hbs';
 
