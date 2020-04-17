@@ -22,7 +22,7 @@ function serchCountry(e) {
         pnotifyClose();
         pnotifyError();
         clearMarkup();
-      } else if (data.length < 10 && data.length > 2) {
+      } else if (data.length < 10 && data.length > 1) {
         pnotifyClose();
         clearMarkup();
         const countryName = data.map(item => item.name);

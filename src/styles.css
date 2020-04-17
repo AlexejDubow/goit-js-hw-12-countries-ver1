@@ -9,7 +9,9 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
+body {
+  background-color: #e2dea8;
+}
 h2 {
   text-align: center;
 }
